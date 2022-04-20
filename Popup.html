@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Track Hunter</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <script src="Popup.js" async></script>
+</head>
+
+<body id="wrapper">
+    <div class="header">
+        <h1>Track Hunter </h1>
+    </div>
+    <div class="tracker-list">
+        <ul>
+            <li id="amazon_adsystem" class="trackers-mode" style="color:#ffffff">
+                <div class="status_track"></div>
+                <div class="title">&nbsp;&nbsp;Amazon Adsystem</div>
+                <div class="icon"><i class="fa-brands fa-amazon fa-2x"></i></div>
+            </li>
+            <li id="google_analytics" class="trackers-mode" style="color:#ffffff">
+                <h6 class="title">&nbsp;Google Analytics</h6>
+                <div class="icon"><i class="fa-brands fa-google fa-2x"></i></div>
+                <div class="status_track"></div>
+            </li>
+            <li id="facebook" class="trackers-mode" style="color:#ffffff">
+                <div class="title">&nbsp;&nbsp;Facebook Homepage</div>
+                <div class="icon"><i class="fa-brands fa-facebook fa-2x"></i></div>
+                <div class="status_track"></div>
+            </li>
+            <li id="twitter" class="trackers-mode" style="color:#ffffff">
+                <div class="title">&nbsp;&nbsp;Twitter Homepage</div>
+                <div class="icon"><i class="fa-brands fa-twitter fa-2x"></i></div>
+                <div class="status_track"></div>
+            </li>
+            <li id="youtube" class="trackers-mode" style="color:#ffffff">
+                <h6 class="title">&nbsp;&nbsp;Youtube Homepage</h6>
+                <div class="icon"><i class="fa-brands fa-youtube fa-2x"></i></div>
+                <div class="status_track"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="trackers-history">
+        <h3 class="history">
+            Trackers History
+        </h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <button class="tracker-button">Amazon Adsystem</button>
+                    <div class="divison">
+                        <ul id="amazon_adsystem-history"></ul>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <button class="tracker-button">Google Analytics</button>
+                    <div class="divison">
+                        <ul id="google_analytics-history"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <button class="tracker-button">Facebook</button>
+                    <div class="divison">
+                        <ul id="facebook-history"></ul>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <button class="tracker-button">Twitter</button>
+                    <div class="divison">
+                        <ul id="twitter-history"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <button class="tracker-button">YouTube</button>
+                <div class="divison">
+                    <ul id="youtube-history"></ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
